@@ -1,0 +1,340 @@
+body {
+	height: 1545px;
+	width: 1500px;
+}
+#wrapper {
+	padding: 75px 210px 50px 210px;
+	background-color: white;
+	height: 1420px;
+	width: 1080px;
+	margin: 0px;
+}
+
+	header {
+		float: left;
+		width: 200px;
+		padding: 0px 27px 0px 0px;
+		height: 1380px;
+		margin-bottom: 40px;
+		border-right: 3px solid black; 
+	}
+
+		#logo {
+			height: 135px;
+			width: 135px;
+			margin: 0px 32.5px 0px 32.5px;
+		}
+
+			nav h2 {
+				margin: 55px 0px 0px 0px;
+				border-bottom: 1.5px solid black;
+			}
+
+			nav ul {
+				list-style: none;
+				padding: 0px;
+				text-align: right;
+			}
+
+			nav a {
+				text-decoration: none;
+				color: black;
+				font-size: 14pt;
+			}
+
+			nav a:hover {
+				text-decoration: underline;
+				color: black;
+			}
+
+	aside {
+		float: left;
+		width: 815px;
+		padding-left: 35px;
+		height: 1380px;
+	}
+
+		section {
+			float: left;
+			width: 815px;
+			height: 740px;
+		}
+
+			.one {
+				height: 240px;
+				width: 815px;
+			}
+
+			.two {
+				height: 240px;
+				width: 815px;
+				margin-top: 10px;
+
+			}
+
+			.three {
+				height: 240px;
+				width: 815px;
+				margin-top: 10px;
+
+			}
+
+				.first {
+					width: 170px;
+					float: left;
+					padding: 11.25px;
+					background: #e0e0e0;
+				    display: block;
+				    border-radius: 2px 2px 2px 2px;
+				    -webkit-box-shadow:0 5px 10px #666;
+     				-moz-box-shadow:0 5px 10px #666;
+    				box-shadow:0 5px 10px #666;	
+				}
+
+					.first a {
+						text-decoration: none;
+    					color: black ;
+						font-size: 14pt;
+					}
+
+					.first a:hover {
+						text-decoration: underline;
+						color: black;
+					}
+
+				.second {
+					
+					width: 170px;
+					float: left;
+					margin-left: 15px;
+					margin-right: 15px;
+					padding: 11.25px;
+					background: #e0e0e0;
+				    display: block;
+				    border-radius: 2px 2px 2px 2px;
+				    -webkit-box-shadow:0 5px 10px #666;
+     				-moz-box-shadow:0 5px 10px #666;
+    				box-shadow:0 5px 10px #666;	
+				}
+
+					.second a {
+						text-decoration: none;
+						color: black;
+						font-size: 14pt;
+					}
+
+					.second a:hover {
+						text-decoration: underline;
+						color: black;
+					}
+
+				.third {
+					
+					width: 170px;
+					float: left;
+					padding: 11.25px;
+					background: #e0e0e0;
+				    display: block;
+				    border-radius: 2px 2px 2px 2px;
+				    -webkit-box-shadow:0 5px 10px #666;
+     				-moz-box-shadow:0 5px 10px #666;
+    				box-shadow:0 5px 10px #666;	
+				}
+
+					.third a {
+						text-decoration: none;
+						color: black;
+						font-size: 14pt;
+					}
+
+					.third a:hover {
+						text-decoration: underline;
+						color: black;
+					}
+
+				.fourth {
+					
+					width: 170px;
+					float: left;
+					margin-left: 15px;
+					padding: 11.25px;
+					background: #e0e0e0;
+				    display: block;
+				    border-radius: 2px 2px 2px 2px;
+				    -webkit-box-shadow:0 5px 10px #666;
+     				-moz-box-shadow:0 5px 10px #666;
+    				box-shadow:0 5px 10px #666;
+					}
+
+					.fourth a {
+						text-decoration: none;
+						color: black;
+						font-size: 14pt;
+					}
+
+					.fourth a:hover {
+						text-decoration: underline;
+						color: black;
+					}
+
+					.image {
+						height: 170px;
+						width: 170px;
+					}
+
+					p {
+						padding: 10px 0px 0px 0px;
+						margin: 0px;
+					}
+
+
+	article {
+		float: left;
+		width: 815px;
+		height: 400px;
+		padding-bottom: 10px;
+		border-bottom: 1.5px solid black;
+	}
+
+		h1 {
+			border-bottom: 1.5px solid black;
+			margin-top: 40px;
+		}
+
+		.img-article {
+			width: 305px;
+			float: left;
+		}
+
+		.img-article img {
+			width: 305px;
+			height: 305px;
+		}
+
+		.text-article {
+			float: right;
+			width: 490px;
+			padding-left: 20px;
+		}
+
+			.text-article p {
+				margin: 0px;
+				text-align: justify;
+				padding: 0px 0px 3px 0px;
+			}
+
+		button {
+			margin-top: 20px;
+			float: right;
+			padding: 5px 20px 5px 20px;
+			font-size: 8pt;
+			background: #e0e0e0;
+		    display: block;
+		    border-radius: 2px 2px 2px 2px;
+		    -webkit-box-shadow:0 5px 10px #666;
+			-moz-box-shadow:0 5px 10px #666;
+			box-shadow:0 5px 10px #666;
+		}
+
+			button a {
+				text-decoration: none;
+				color: black;	
+			}
+
+			button a:hover {
+				text-decoration: underline;
+			}
+
+		footer {
+		width: 815px;
+		float: left;
+		margin: 0px;
+		}
+
+		.logo {
+			width: 110px;
+			height: 60px;
+			margin-top: 20px;
+		}
+
+			.logo img {
+				margin: 0px;
+				width: 110px;
+				height: 60px;
+			}
+
+		#footer {
+			float: left;
+			width: 815px;
+			height: 132px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+
+		}
+
+			.context {
+				float: left;
+				width: 385px;
+				height: 132px;
+
+			}
+
+				.context p {
+					margin: 0px;
+					text-align: justify;
+					color: gray;
+					padding: 0px 0px 3px 0px;
+				}
+
+			#list {
+				float: left;
+				width: 380px;
+				margin-left: 50px; 
+			}
+
+				.first-list {
+					float: left;
+					width: 160px;
+					margin-right: 40px;
+				}
+
+					.first-list ul {
+						list-style: outside;
+						padding: 0px;
+						margin: 0px;
+					}
+
+					.first-list a {
+						text-decoration: none;
+						color: black;
+						font-size: 9pt;
+					}
+
+				.second-list {
+					float: left;
+					width: 160px;
+				}
+
+					.second-list ul {
+						list-style: outside;
+						padding: 0px;
+						margin: 0px;
+					}
+
+					.second-list a {
+						text-decoration: none;
+						color: black;
+						font-size: 9pt;
+					}
+
+		footer p {
+			float: left;
+			margin: 0px;
+			padding-bottom: 15px;
+			padding-left: 35px;
+		}
+
+		p.footer {
+			font-size: 10pt;
+			margin: 0px;
+		}
